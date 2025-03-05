@@ -40,7 +40,7 @@ if [ "$1" -eq 16 ]; then
     --rm \
     --net=host \
     -v ${A_LOAM_DIR}:/root/catkin_ws/src/A-LOAM/ \
-    ros:aloam \
+    east-aloam:1.0 \
     /bin/bash -c \
     "cd /root/catkin_ws/; \
     catkin config \
@@ -55,7 +55,7 @@ elif [ "$1" -eq "32" ]; then
     --rm \
     --net=host \
     -v ${A_LOAM_DIR}:/root/catkin_ws/src/A-LOAM/ \
-    ros:aloam \
+    east-aloam:1.0 \
     /bin/bash -c \
     "cd /root/catkin_ws/; \
     catkin config \
@@ -70,7 +70,7 @@ elif [ "$1" -eq "64" ]; then
     --rm \
     --net=host \
     -v ${A_LOAM_DIR}:/root/catkin_ws/src/A-LOAM/ \
-    ros:aloam \
+    east-aloam:1.0 \
     /bin/bash -c \
     "cd /root/catkin_ws/; \
     catkin config \
