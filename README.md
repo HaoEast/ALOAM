@@ -10,8 +10,8 @@ A-LOAM is an Advanced implementation of LOAM (J. Zhang and S. Singh. LOAM: Lidar
 
 ## 1. Prerequisites
 ### 1.1 **Ubuntu** and **ROS**
-Ubuntu 64-bit 16.04 or 18.04.
-ROS Kinetic or Melodic. [ROS Installation](http://wiki.ros.org/ROS/Installation)
+Ubuntu 64-bit 16.04 or 18.04 or 20.04.
+ROS Kinetic or Melodic or noedic. [ROS Installation](http://wiki.ros.org/ROS/Installation)
 
 
 ### 1.2. **Ceres Solver**
@@ -26,7 +26,7 @@ Clone the repository and catkin_make:
 
 ```
     cd ~/catkin_ws/src
-    git clone https://github.com/HKUST-Aerial-Robotics/A-LOAM.git
+    git clone https://github.com/HaoEast/ALOAM.git
     cd ../
     catkin_make
     source ~/catkin_ws/devel/setup.bash

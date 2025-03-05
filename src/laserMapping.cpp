@@ -77,9 +77,10 @@ int laserCloudCenDepth = 5;
 const int laserCloudWidth = 21;
 const int laserCloudHeight = 21;
 const int laserCloudDepth = 11;
-
-
-const int laserCloudNum = laserCloudWidth * laserCloudHeight * laserCloudDepth; //4851
+ting objects: 100% (30/30), done.
+remote: Compressing objects: 100% (25/25), done.
+remote: Total 30 (delta 3), reused 30 (delta 3), pack-reused 0 (from 0)
+展开对象中: 100% (30/30), 6.67 MiB | 302.00CloudNum = laserCloudWidth * laserCloudHeight * laserCloudDepth; //4851
 
 
 int laserCloudValidInd[125];
